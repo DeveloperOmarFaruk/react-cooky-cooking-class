@@ -1,38 +1,97 @@
-.App {
-  text-align: center;
+:root {
+  --bs-blue: #0d6efd;
+  --bs-light-blue: #300c77;
+  --bs-deep-blue: #013376;
+  --bs-see-blue: #020f31;
+  --bs-dark-blue: #232c3b;
+  --bs-indigo: #6610f2;
+  --bs-purple: #6f42c1;
+  --bs-pink: #d63384;
+  --bs-red: #dc3545;
+  --bs-orange: #fd7e14;
+  --bs-deep-orange: #ff6c3a;
+  --bs-white-yellow: #d2a98e;
+  --bs-bright-yellow: #cea264;
+  --bs-golden-yellow: #ba8d46;
+  --bs-yellow: #ffc107;
+  --bs-green: #198754;
+  --bs-teal: #20c997;
+  --bs-deep-teal: #00838d;
+  --bs-dark-teal: #02575e;
+  --bs-cyan: #0dcaf0;
+  --bs-cyan-white: #bcc4d9;
+  --bs-white: #fff;
+  --bs-gray: #6c757d;
+  --bs-white-gray: #ababab;
+  --bs-gray-dark: #343a40;
+  --bs--gray-white-dark: #696969;
+  --bs-primary: #0d6efd;
+  --bs-deep-primary: #0060af;
+  --bs-secondary: #6c757d;
+  --bs-success: #198754;
+  --bs-info: #0dcaf0;
+  --bs-deep-info: #34b8d9;
+  --bs-warning: #ffc107;
+  --bs-danger: #dc3545;
+  --bs-light: #f8f9fa;
+  --bs-dark: #212529;
+  --bs-white-dark: #333333;
+  --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
+  --bs-gradient: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.15),
+    rgba(255, 255, 255, 0)
+  );
+
+  --bs-font-condensed: "Roboto Condensed", sans-serif;
+  --bs-font-dancing: "Dancing Script", cursive;
+  --bs-font-courgette: "Courgette", cursive;
+  --bs-messiri: "El Messiri", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Condensed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cookie&family=El+Messiri:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--bs-font-condensed);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+html {
+  scroll-behavior: smooth;
+}
+
+/* Keyword values */
+
+.section {
+  max-width: 80%;
+  width: 100%;
+  margin: 0 auto;
+}
+.row {
+  margin: 0px !important;
+  padding: 0px !important;
+}
+
+@media only screen and (max-width: 1500px) {
+  .section {
+    padding: 0px 50px;
+    margin: 0px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@media (min-device-width: 360px) and (max-device-width: 768px) {
+  .section {
+    padding: 0px 50px;
+    margin: 0px;
+    max-width: 100% !important;
   }
 }
