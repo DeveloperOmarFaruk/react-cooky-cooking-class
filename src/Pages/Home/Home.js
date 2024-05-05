@@ -4,6 +4,14 @@ import HeaderImage from "../../Images/header-vegetarian-dish.png";
 import Italian from "../../Images/italian.png";
 import Japanese from "../../Images/japanese.png";
 import Oriental from "../../Images/oriental.png";
+import OnlineClass from "../../Components/MultiUsesComponents/OnlineClass";
+import CulinaryCourse from "../../Components/MultiUsesComponents/CulinaryCourse";
+import OurCookingClass from "../../Components/MultiUsesComponents/OurCookingClass";
+import ThemAll from "../../Components/MultiUsesComponents/ThemAll";
+import OurAssociate from "../../Components/MultiUsesComponents/OurAssociate";
+import BestCulinary from "../../Components/MultiUsesComponents/BestCulinary";
+import NewsBlog from "../../Components/MultiUsesComponents/NewsBlog";
+import ContactUsComponent from "../../Components/MultiUsesComponents/ContactUsComponent";
 
 const Home = () => {
   return (
@@ -58,6 +66,38 @@ const Home = () => {
             </div>
           </div>
         </div>
+      </div>
+
+      <div className="online-container">
+        <OnlineClass />
+      </div>
+
+      <div className="online-container">
+        <CulinaryCourse />
+      </div>
+
+      <div>
+        <OurCookingClass />
+      </div>
+
+      <div className="online-container">
+        <ThemAll />
+      </div>
+
+      <div className="online-container">
+        <OurAssociate />
+      </div>
+
+      <div>
+        <BestCulinary />
+      </div>
+
+      <div className="online-container">
+        <NewsBlog />
+      </div>
+
+      <div>
+        <ContactUsComponent />
       </div>
     </>
   );

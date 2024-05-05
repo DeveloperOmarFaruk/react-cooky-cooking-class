@@ -1,0 +1,331 @@
+.online-class-image {
+  margin: 0px;
+  width: 95%;
+}
+
+.online-class-image img {
+  height: auto;
+  width: 100%;
+}
+
+.online-class-text h6,
+.our-cooking-class-text h6 {
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  color: var(--bs-gray-dark);
+}
+
+.online-class-text h1,
+.our-cooking-class-text h1 {
+  font-size: 60px;
+  font-weight: bolder;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  color: var(--bs-dark);
+  margin: 30px auto;
+}
+
+.our-cooking-class-text p {
+  margin: 4rem auto;
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--bs-dark);
+}
+
+.online-class-text p {
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--bs-dark);
+  margin: 10px auto;
+  text-align: justify;
+}
+
+.online-class-text button {
+  padding: 10px 30px;
+  border-radius: 8px;
+  margin: 30px auto;
+  background-color: #bc997e;
+  color: white;
+  border: 2px solid #bc997e;
+}
+
+.online-class-text button:hover {
+  background-color: #bc997e;
+  color: black;
+  border: 2px solid #836249;
+  transition: 0.5s;
+}
+
+.our-cooking-class-container {
+  background-image: url("../../Images/top-view-of-platter-with-healthy-raw-vegetable.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+
+.our-cooking-section {
+  padding: 12rem 0rem 10rem 0rem;
+}
+
+.our-cooking-class-card-div {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.our-cooking-class-card-div:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  transition: 0.5s;
+}
+
+.our-cooking-class-card-div img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.our-cooking-class-card-div h3 {
+  font-weight: bold;
+}
+
+.our-cooking-class-card-div p {
+  color: var(--bs-gray-dark);
+  font-weight: 500;
+}
+
+.our-cooking-class-card-div button {
+  border: none;
+  margin-top: 10px;
+  color: #836249;
+}
+
+.our-cooking-class-card-div button:hover {
+  color: #573e2c;
+}
+
+.theme-all-card {
+  margin: 40px auto;
+  padding: 20px 10px;
+}
+
+.theme-all-card img {
+  width: 70%;
+  height: auto;
+  margin: 20px auto;
+  display: block;
+}
+
+.theme-all-card h3 {
+  text-align: center;
+  font-weight: bold;
+}
+
+.progress-edit-50 {
+  width: 30%;
+  background-color: #7ec242;
+}
+.progress-edit-80 {
+  width: 60%;
+  background-color: #ffa33e;
+}
+.progress-edit-100 {
+  width: 80%;
+  background-color: #f46a5e;
+}
+
+.our-associate-img img {
+  width: 60%;
+  height: auto;
+}
+
+.our-associate-img {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.our-associate-text-div {
+  margin: 60px auto;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  justify-items: start;
+}
+
+.our-associate-text-div i {
+  font-size: 4rem;
+  margin-right: 4rem;
+}
+
+.our-associate-text-div p {
+  font-size: 1.4rem;
+  font-weight: 500;
+  width: 60%;
+  font-style: italic;
+}
+
+.best-culinary-container {
+  background-image: url("../../Images/minimalist-scandinavian-kitchen-interior-after-ren.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+
+.best-culinary-section {
+  padding: 5rem 0rem 0rem 0rem;
+}
+
+.best-culinary-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  justify-items: center;
+}
+
+.best-culinary-text {
+  padding: 60px 40px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.best-culinary-text h1 {
+  font-weight: bold;
+  margin: 30px auto;
+}
+
+.best-culinary-text p {
+  font-size: 18px;
+  margin: 10px auto 40px auto;
+}
+
+.best-culinary-text h4 {
+  font-weight: 900;
+  margin: 10px auto 10px auto;
+}
+
+.best-culinary-text h6 {
+  font-weight: 500;
+  margin: 10px auto 10px auto;
+  color: #bc997e;
+  font-size: 18px;
+}
+
+.best-culinary-image {
+  text-align: center;
+}
+
+.best-culinary-image img {
+  width: 100%;
+  height: auto;
+}
+
+.news-blog-card {
+  border-radius: 10px;
+  margin: 20px auto;
+}
+
+.news-blog-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.news-blog-card-text {
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.news-blog-card-text h3 {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin: 20px auto;
+}
+
+.news-blog-card-text p {
+  font-weight: 500;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 17px;
+}
+
+.news-blog-card-text button {
+  border: none;
+  color: #927157;
+}
+
+.news-blog-card-text button:hover {
+  color: #5e412c;
+}
+
+.contact-us-component-container {
+  background-image: url("../../Images/kitchen-utensils-on-a-background-of-a-white-brick.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+
+.contact-us-component-section {
+  padding: 6rem 0rem 10rem 0rem;
+}
+
+.contact-us-component-div {
+  background-color: white;
+  padding: 50px 30px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  border-radius: 10px;
+}
+
+.contact-us-component-div h4 {
+  font-size: 20px;
+  color: var(--bs-gray-dark);
+  margin: 10px auto;
+}
+
+.contact-us-component-div h1 {
+  font-weight: bold;
+  margin: 20px auto;
+}
+
+.contact-us-component-div p {
+  font-size: 18px;
+  color: var(--bs-gray-dark);
+  margin: 10px auto 20px auto;
+}
+
+.contact-us-component-form button {
+  padding: 10px 30px;
+  border-radius: 8px;
+  margin: 30px auto 10px auto;
+  background-color: #bc997e;
+  color: white;
+  border: 2px solid #bc997e;
+  width: 100%;
+}
+
+.contact-us-component-address {
+  text-align: center;
+  margin: 10px auto 40px auto;
+}
+
+.contact-us-component-address h3 {
+  margin: 10px auto 20px auto;
+  font-weight: 800;
+}
+
+.contact-us-component-address p {
+  margin: 0px auto;
+  padding: 0px auto;
+  font-size: 18px;
+}
