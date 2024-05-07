@@ -19,3 +19,6 @@ Cooky is a Template Kit for quickly and easily creating websites for user busine
 9. Blog
 10. Blog-Detail
 11. 404
+
+
+
