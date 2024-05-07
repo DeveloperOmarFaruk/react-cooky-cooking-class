@@ -1,0 +1,44 @@
+.pages-header-container {
+  background-image: url("../../Images/ripe-vegetables-on-kitchen-counter-in-light-kitche.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 12rem 0rem 10rem 0rem;
+}
+
+.pages-header-div {
+  text-align: center;
+}
+
+.pages-header-div h1 {
+  font-weight: bolder;
+  font-size: 6rem;
+  letter-spacing: 3px;
+}
+
+.pages-header-button-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  font-size: 18px;
+}
+
+.pages-header-button-div p {
+  border: none;
+  margin: 10px 10px;
+  color: #bc997e;
+  cursor: pointer;
+}
+
+.pages-header-button-div p:hover {
+  color: #835736;
+}
+
+.pages-header-button-div p:hover:nth-last-child(1) {
+  color: #bc997e;
+}
+
+.about-container {
+  margin: 8rem auto;
+}

@@ -6,8 +6,8 @@
 .footer-container-row {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
-  align-items: center;
+  justify-content: space-between;
+  align-items: start;
   justify-items: center;
 }
 
@@ -49,4 +49,12 @@
 }
 .footer-copyright-div p {
   color: white;
+}
+
+.footer-section-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: start;
+  justify-items: center;
 }

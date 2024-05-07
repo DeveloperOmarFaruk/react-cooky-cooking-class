@@ -23,7 +23,6 @@
   --bs-white: #fff;
   --bs-gray: #6c757d;
   --bs-white-gray: #ababab;
-  --bs-gray-dark: #343a40;
   --bs--gray-white-dark: #696969;
   --bs-primary: #0d6efd;
   --bs-deep-primary: #0060af;
@@ -79,6 +78,14 @@ html {
 .row {
   margin: 0px !important;
   padding: 0px !important;
+}
+
+.section-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  justify-items: center;
 }
 
 @media only screen and (max-width: 1500px) {

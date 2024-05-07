@@ -9,9 +9,9 @@ const ContactUsComponent = () => {
     <>
       <div className="contact-us-component-container">
         <div className="section contact-us-component-section">
-          <div className="row">
-            <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-              <div className="contact-us-component-div">
+          <div className="row section-row ">
+            <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 mt-4">
+              <div className="contact-us-component-div" data-aos="zoom-in">
                 <h4># Contact Us</h4>
                 <h1>Get In Touch</h1>
                 <p>
@@ -63,8 +63,8 @@ const ContactUsComponent = () => {
                 </form>
               </div>
             </div>
-            <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-              <div className="contact-us-component-address">
+            <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 mt-4">
+              <div className="contact-us-component-address" data-aos="zoom-in">
                 <img src={Watch} alt={Watch} />
                 <h3>Opening Hours</h3>
                 <p>Mon-Fri: 9 AM – 6 PM</p>
@@ -72,13 +72,13 @@ const ContactUsComponent = () => {
                 <p>Sunday: Closed</p>
               </div>
 
-              <div className="contact-us-component-address">
+              <div className="contact-us-component-address" data-aos="zoom-in">
                 <img src={Address} alt={Address} />
                 <h3>Address</h3>
                 <p>2443 Oak Ridge Omaha, QA 45065</p>
               </div>
 
-              <div className="contact-us-component-address">
+              <div className="contact-us-component-address" data-aos="zoom-in">
                 <img src={Message} alt={Message} />
                 <h3>Our Contact</h3>
                 <p>Telephone: 207-8767-452</p>

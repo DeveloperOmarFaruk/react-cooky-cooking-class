@@ -6,6 +6,8 @@
 .online-class-image img {
   height: auto;
   width: 100%;
+  border-radius: 20px;
+  padding: 10px;
 }
 
 .online-class-text h6,
@@ -95,6 +97,11 @@
 .our-cooking-class-card-div p {
   color: var(--bs-gray-dark);
   font-weight: 500;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .our-cooking-class-card-div button {
@@ -176,14 +183,6 @@
 
 .best-culinary-section {
   padding: 5rem 0rem 0rem 0rem;
-}
-
-.best-culinary-row {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  justify-items: center;
 }
 
 .best-culinary-text {
@@ -276,7 +275,7 @@
 }
 
 .contact-us-component-section {
-  padding: 6rem 0rem 10rem 0rem;
+  padding: 10rem 0rem 10rem 0rem;
 }
 
 .contact-us-component-div {
@@ -328,4 +327,243 @@
   margin: 0px auto;
   padding: 0px auto;
   font-size: 18px;
+}
+
+.stay-up-date-container {
+  background-image: url("../../Images/minimalist-scandinavian-kitchen-interior-after-ren1.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: cover;
+}
+
+.stay-up-date-section {
+  padding: 5rem 0rem 8rem 0rem;
+}
+
+.counter-div {
+  margin: 40px auto;
+  text-align: center;
+}
+
+.counter-div h1 {
+  font-size: 4.5rem;
+  font-weight: bold;
+}
+
+.counter-div p {
+  font-size: 20px;
+  color: var(--bs--gray-white-dark);
+}
+
+.count-up-background-container {
+  background-image: url("../../Images/cooked-ingredients-for-dietary-salad.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: cover;
+}
+
+.count-up-background-section {
+  padding: 3rem 0rem 3rem 0rem;
+}
+
+.counter-div {
+  border-radius: 10px;
+  padding: 1rem 0rem;
+}
+
+.why-choose-us-col-div {
+  text-align: center;
+  margin: 10px auto;
+}
+
+.why-choose-us-col-div img,
+.child-course-div img {
+  height: auto;
+  width: 35%;
+  margin: 20px auto;
+}
+
+.why-choose-us-col-div h4,
+.child-course-div h4 {
+  font-weight: bold;
+}
+
+.why-choose-us-col-div p,
+.child-course-div p {
+  font-size: 18px;
+}
+
+.child-course-row {
+  margin: 4rem auto !important;
+}
+
+.child-course-div {
+  margin: 20x auto;
+  text-align: center;
+}
+
+.our-course-plan-header-text h6,
+.our-course-plan-header-text h1,
+.our-course-plan-header-text p {
+  text-align: center !important;
+  margin: 10px auto;
+}
+
+.our-course-plan-section {
+  margin: 6rem auto;
+}
+
+.our-course-plan-card {
+  text-align: center;
+  padding: 30px;
+  border: 1px dotted #836249;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  margin-top: 20px;
+}
+
+.our-course-plan-card h1 {
+  font-weight: bold;
+  margin: 10px auto;
+}
+
+.our-course-plan-card p {
+  font-size: 18px;
+  margin-bottom: 3rem;
+}
+
+.our-course-plan-card h5 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.our-course-plan-card h5 span {
+  font-weight: bolder;
+  font-size: 4rem;
+}
+
+.our-course-plan-card h6 {
+  font-size: 18px;
+  border-bottom: 1px dotted #836249;
+  padding: 10px;
+  margin: 10px 50px;
+}
+
+.our-course-plan-card button {
+  margin: 30px auto 5px auto;
+  padding: 5px 50px;
+  border-radius: 10px;
+  border: 1px solid #836249;
+  background-color: #836249;
+  color: white;
+}
+
+.our-course-plan-card button:hover {
+  background-color: #bc997e;
+  color: black;
+  border: 1px solid #836249;
+  transition: 0.5s;
+}
+
+.error-header-div {
+  text-align: center;
+}
+
+.error-header-div h1 {
+  font-weight: bolder;
+  font-size: 14rem;
+}
+
+.error-header-div h3 {
+  font-weight: bold;
+  font-size: 5rem;
+}
+
+.error-header-div p {
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin: 20px auto 50px auto;
+}
+
+.error-header-div button {
+  margin: 30px auto 5px auto;
+  padding: 10px 50px;
+  border-radius: 10px;
+  border: 1px solid #836249;
+  background-color: #836249;
+  color: white;
+}
+
+.error-header-div button:hover {
+  background-color: #bc997e;
+  color: black;
+  border: 1px solid #836249;
+  transition: 0.5s;
+}
+
+.cooking-class-details-div {
+  margin: 4rem auto;
+}
+
+.cooking-class-details-div h2 {
+  font-weight: bold;
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+  margin: 20px auto;
+}
+
+.cooking-class-details-div p {
+  font-size: 20px;
+  text-align: justify;
+}
+
+.cooking-class-details-img-div {
+  margin: 20px auto;
+  text-align: center;
+}
+
+.cooking-class-details-img-div img {
+  margin: 20px auto;
+  width: 60%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.cooking-class-details-img-div h5 {
+  font-weight: 700;
+  margin: 20px auto;
+  font-size: 22px;
+  letter-spacing: 1px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .our-course-plan-card h6 {
+    margin: 10px 10px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .our-course-plan-card h6 {
+    margin: 10px 10px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .our-course-plan-card h6 {
+    margin: 10px 10px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .our-course-plan-card h6 {
+    margin: 10px 10px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
 }

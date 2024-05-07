@@ -6,9 +6,9 @@ const BestCulinary = () => {
     <>
       <div className="best-culinary-container">
         <div className="section best-culinary-section">
-          <div className="row best-culinary-row">
-            <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-              <div className="best-culinary-text">
+          <div className="row section-row ">
+            <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 mt-4">
+              <div className="best-culinary-text" data-aos="zoom-in">
                 <h1># Best Culinary Course</h1>
                 <p>
                   ” Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
@@ -20,8 +20,8 @@ const BestCulinary = () => {
               </div>
             </div>
 
-            <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-              <div className="best-culinary-image">
+            <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 mt-4">
+              <div className="best-culinary-image" data-aos="zoom-in">
                 <img src={Executive} alt={Executive} />
               </div>
             </div>

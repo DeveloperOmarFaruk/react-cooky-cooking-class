@@ -85,3 +85,45 @@
 .online-container {
   margin: 8rem auto;
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .banner-text h2 {
+    font-size: 2.1rem;
+    letter-spacing: 2px;
+  }
+
+  .banner-text h1 {
+    font-size: 4.4rem;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+  .banner-text h2 {
+    font-size: 2.1rem;
+    letter-spacing: 5px;
+  }
+
+  .banner-text h1 {
+    font-size: 3.4rem;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1024px) {
+  .banner-text h2 {
+    letter-spacing: 5px;
+  }
+  .banner-text h1 {
+    font-size: 2.8rem;
+  }
+}

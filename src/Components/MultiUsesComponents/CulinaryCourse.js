@@ -1,19 +1,22 @@
 import React from "react";
 import "./MultiUsesComponents.css";
 import ChefGiving from "../../Images/chef-giving.png";
+import { useNavigate } from "react-router";
 const CulinaryCourse = () => {
+  const navigate = useNavigate();
+
   return (
     <>
       <div className="section">
-        <div className="row">
-          <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-            <div className="online-class-image">
+        <div className="row section-row">
+          <div className="col-lg-6 col-md-5 col-sm-12 col-xs-12 mt-4">
+            <div className="online-class-image" data-aos="zoom-in">
               <img src={ChefGiving} alt={ChefGiving} />
             </div>
           </div>
 
-          <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-            <div className="online-class-text">
+          <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 mt-4">
+            <div className="online-class-text" data-aos="zoom-in">
               <h6># Culinary Course</h6>
               <h1>Master The Art Of Cooking With Chef</h1>
               <p>
@@ -23,7 +26,13 @@ const CulinaryCourse = () => {
                 dapibus tortor turpis.
               </p>
 
-              <button>Get Started</button>
+              <button
+                onClick={() => {
+                  navigate("/course");
+                }}
+              >
+                Join Course
+              </button>
             </div>
           </div>
         </div>

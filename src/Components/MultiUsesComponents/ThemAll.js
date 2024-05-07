@@ -8,9 +8,9 @@ const ThemAll = () => {
   return (
     <>
       <div className="section">
-        <div className="row">
+        <div className="row section-row">
           <div className="col-lg-6 col-md-6 col-sm-12 sol-xs-12">
-            <div className="our-cooking-class-text">
+            <div className="our-cooking-class-text" data-aos="zoom-in">
               <h6># We'll Cook Them All</h6>
               <h1>
                 From Easy Meal To
@@ -19,7 +19,7 @@ const ThemAll = () => {
             </div>
           </div>
           <div className="col-lg-6 col-md-6 col-sm-12 sol-xs-12">
-            <div className="our-cooking-class-text">
+            <div className="our-cooking-class-text" data-aos="zoom-in">
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
                 cursus, tortor nec dignissim semper, felis eros venenatis metus,
@@ -32,9 +32,9 @@ const ThemAll = () => {
       </div>
 
       <div className="section">
-        <div className="row">
+        <div className="row section-row">
           <div className="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-            <div className="theme-all-card">
+            <div className="theme-all-card" data-aos="zoom-in">
               <img src={Grilled} alt={Grilled}></img>
               <h3>Grilled Fish</h3>
               <div>
@@ -84,7 +84,7 @@ const ThemAll = () => {
           </div>
 
           <div className="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-            <div className="theme-all-card">
+            <div className="theme-all-card" data-aos="zoom-in">
               <img src={Kastu} alt={Kastu}></img>
               <h3>Katsu Sandwich</h3>
               <div>
@@ -134,7 +134,7 @@ const ThemAll = () => {
           </div>
 
           <div className="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-            <div className="theme-all-card">
+            <div className="theme-all-card" data-aos="zoom-in">
               <img src={Curry} alt={Curry}></img>
               <h3>Curry Fried Rice</h3>
               <div>

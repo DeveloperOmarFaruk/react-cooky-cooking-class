@@ -48,28 +48,22 @@ const Navbar = () => {
 
               <li>
                 <div className="dropdown">
-                  <NavLink className="nav-links" to="/services">
+                  <NavLink className="nav-links" to="#">
                     Pages
                     <i className="fa-solid fa-angle-down down-arrow"></i>
                   </NavLink>
                   <div className="dropdown-content">
-                    <NavLink to="/web-development">Services</NavLink>
-                    <NavLink to="/mobile-app-development">Course</NavLink>
-
-                    <NavLink to="/api-integration-development">
-                      Course Details
-                    </NavLink>
-
-                    <NavLink to="/qa-testing">Trainer</NavLink>
-
-                    <NavLink to="/script-bot-automation">Pricing</NavLink>
-                    <NavLink to="/ui-ux-design-development">Blog</NavLink>
+                    <NavLink to="/service">Service</NavLink>
+                    <NavLink to="/course">Course</NavLink>
+                    <NavLink to="/trainer">Trainer</NavLink>
+                    <NavLink to="/pricing">Pricing</NavLink>
+                    <NavLink to="/blog">Blog</NavLink>
                   </div>
                 </div>
               </li>
 
               <li>
-                <NavLink to="/contact" className="nav-links">
+                <NavLink to="/contact-us" className="nav-links">
                   Contact Us
                 </NavLink>
               </li>

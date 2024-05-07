@@ -1,46 +1,35 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./MultiUsesComponents.css";
-import Star from "../../Images/star-fork.png";
-import Knife from "../../Images/knife-chef.png";
-import FoodChief from "../../Images/foodChef.png";
-import FoodPeen from "../../Images/foodPin.png";
 
 const OurAssociate = () => {
+  const [associateData, setAssociateData] = useState([]);
+  const URL = `https://developeromarfaruk.github.io/react-cooky-cooking-class-api/cookingClassData.json`;
+
+  useEffect(() => {
+    fetch(URL)
+      .then((res) => res.json())
+      .then((data) => setAssociateData(data[0].associate));
+  }, [URL]);
+
   return (
     <>
       <div className="section">
-        <div className="our-cooking-class-text">
+        <div className="our-cooking-class-text" data-aos="zoom-in">
           <h6># Our Associate</h6>
           <h1>In Partnership With</h1>
         </div>
 
-        <div className="row">
-          <div className="col-lg-3 col-md-6 col-sm-6 col-xs-6">
-            <div className="our-associate-img">
-              <img src={Star} alt={Star} />
+        <div className="row section-row ">
+          {associateData.map((item) => (
+            <div className="col-lg-3 col-md-6 col-sm-6 col-xs-6" key={item.id}>
+              <div className="our-associate-img" data-aos="zoom-in">
+                <img src={item.img} alt={item.img} />
+              </div>
             </div>
-          </div>
-
-          <div className="col-lg-3 col-md-6 col-sm-6 col-xs-6">
-            <div className="our-associate-img">
-              <img src={Knife} alt={Knife} />
-            </div>
-          </div>
-
-          <div className="col-lg-3 col-md-6 col-sm-6 col-xs-6">
-            <div className="our-associate-img">
-              <img src={FoodPeen} alt={FoodPeen} />
-            </div>
-          </div>
-
-          <div className="col-lg-3 col-md-6 col-sm-6 col-xs-6">
-            <div className="our-associate-img">
-              <img src={FoodChief} alt={FoodChief} />
-            </div>
-          </div>
+          ))}
         </div>
 
-        <div className="our-associate-text-div">
+        <div className="our-associate-text-div" data-aos="zoom-in">
           <i class="fa-solid fa-quote-left"></i>
           <p>
             Etiam vitae libero eget est sodales accumsan sed in eros.
