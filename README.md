@@ -1,6 +1,6 @@
 # Here is some UI and work shown in this repository
 
-[Live Preview Project](https://github.com/facebook/create-react-app)
+[Live Preview Project](https://6639d3818807c0b41cabdbcd--illustrious-marigold-ecdbbb.netlify.app/)
 #
 ## Project Details
 #
