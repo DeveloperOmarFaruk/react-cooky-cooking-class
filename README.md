@@ -4,13 +4,13 @@
 #
 ## Project Details
 #
-Cooky is a Template Kit for quickly and easily creating websites for your business. This kit has been optimized for use with the free Hello Elementor theme but may be used with most themes that support Elementor. Cooky provide you with various pages and Blocks including Home, About Us, Contact, Service, Trainer, Course, Course-Detail, Pricing, Blog, 404.
+Cooky is a Template Kit for quickly and easily creating websites for your business. This kit has been optimized for use with the free Hello Elementor theme but may be used with most themes that support Elementor. Cooky provides you with various pages and Blocks including Home, About Us, Contact, Service, Trainer, Course, Course-Detail, Pricing, Blog, 404.
 #
 ### `Technology Use`
 #
 1. React JS
 2. React Hooks
-3. Event Handelears
+3. Event Handlers
 4. Arrow Functions
 5. Fetch API
 6. React Router
@@ -18,7 +18,7 @@ Cooky is a Template Kit for quickly and easily creating websites for your busine
 8. UseNegative
 9. React Lists and Keys
 10. React CountUp
-11. React Jquery
+11. React JQuery
 12. React AOS Animation
 13. HTML5
 14. CSS3
